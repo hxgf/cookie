@@ -6,7 +6,7 @@
 # Installation
 Easy install with composer:
 ```
-composer require hxgf/cookie:0.1.0@dev
+composer require hxgf/cookie
 ```
 ```php
 use Cookie\cookie;
