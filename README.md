@@ -1,6 +1,6 @@
-# Cookie
+# VPHP Cookie
 
-### PHP functions to handle cookie operations more easily.
+### Vanilla PHP functions to more easily handle cookie operations.
 
 
 # Installation
@@ -9,26 +9,29 @@ Easy install with composer:
 composer require hxgf/cookie
 ```
 ```php
-use Cookie\cookie;
+use VPHP\cookie;
 require __DIR__ . '/vendor/autoload.php';
 ```
 
 # Usage
 
-## cookie::set($key, $value, $expiration_date)
-Sets a cookie with a specific key for a specific amount of time.
+## cookie::set($key, $value, $parameters)
+Sets a cookie with a specific key for a specific amount of time. Native [setcookie](https://www.php.net/manual/en/function.setcookie.php) parameters are allowed. All parameters are optional.
 ```php
-cookie::set(
-  'user_name',
-  'Buzz',  // can be a string or an array or whatever
-  1461619625  // optional, in unix time format, default is time() + 31536000000
-);
+cookie::set('user_name', 'Buzz', [
+  'expires' => time() + 86400, // unix time, default is 1 year
+  'path' => '/custom-path/', // default is '/'
+  'domain' => 'custom.example.com',
+  'secure' => true,
+  'httponly' => true,
+  'samesite' => 'Lax',
+]);
 ```
 
 ## cookie::get($key)
 Returns the value of a specific cookie.
 ```php
-echo cookie::get('user_name');  // Buzz
+echo cookie::get('user_name');
 ```
 
 ## cookie::delete($key)

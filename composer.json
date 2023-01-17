@@ -13,7 +13,7 @@
 	"keywords": ["utilities", "cookies", "abstraction"],
 	"autoload": {
 		"psr-4": {
-			"Cookie\\": ["src/"]
+			"VPHP\\": ["src/"]
 		}
 	}
 }
