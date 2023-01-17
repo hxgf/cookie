@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @package    Cookie
+ * @package    VPHP - Cookie
  * @version    1.1.0
  * @author     Jonathan Youngblood <jy@hxgf.io>
  * @license    https://github.com/hxgf/cookie/blob/master/LICENSE.md (MIT License)
