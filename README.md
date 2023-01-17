@@ -1,4 +1,4 @@
-# VPHP Cookie
+# VPHP - Cookie
 
 ### Vanilla PHP functions to more easily handle cookie operations.
 
