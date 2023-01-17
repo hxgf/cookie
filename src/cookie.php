@@ -2,7 +2,7 @@
 
 /**
  * @package    Cookie
- * @version    1.2.0
+ * @version    1.1.0
  * @author     Jonathan Youngblood <jy@hxgf.io>
  * @license    https://github.com/hxgf/cookie/blob/master/LICENSE.md (MIT License)
  * @source     https://github.com/hxgf/cookie
