@@ -6,7 +6,7 @@
 # Installation
 Easy install with composer:
 ```
-composer require hxgf/cookie
+composer require jyoungblood/cookie
 ```
 ```php
 use VPHP\cookie;

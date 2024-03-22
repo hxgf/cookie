@@ -1,6 +1,6 @@
 {
-	"name": "hxgf/cookie",
-  "homepage": "https://github.com/hxgf/cookie",
+	"name": "jyoungblood/cookie",
+  "homepage": "https://github.com/jyoungblood/cookie",
 	"description": "PHP functions to handle cookie operations more easily.",
 	"type": "library",
   "license": "MIT",
